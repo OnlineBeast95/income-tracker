@@ -604,6 +604,30 @@ nav.bottom-nav,
   background: rgba(255,255,255,0.94) !important;
 }
 
+
+/* All-pages light grey gradient background */
+:root {
+  --all-pages-bg: linear-gradient(180deg, #fafbfc 0%, #f3f5f8 48%, #eceff4 100%);
+}
+html,
+body {
+  background: var(--all-pages-bg) fixed !important;
+  background-color: #eceff4 !important;
+  min-height: 100%;
+}
+body {
+  min-height: 100dvh !important;
+}
+.view,
+.view.active,
+#view-calendar,
+#view-yearly,
+#view-settings,
+.app-shell {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
 </style>
 </head>
 <body>
